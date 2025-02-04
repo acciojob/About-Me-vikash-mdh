@@ -1,1 +1,121 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Profile Page</title>
+  <style>
+     
+    body {
+      background-color: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .profile-container {
+      background-color:lightpink;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 500px;
+      width: 200%;
+      
+    }
+
+    h2, h3 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    section {
+      margin-bottom: 20px;
+    }
+
+    .about-me {
+      margin-bottom: 20px;
+    }
+
+    .skills {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .skill {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .skill-bar {
+      background-color: red;
+      width: 70%;
+      height: 10px;
+      position: relative;
+      border-radius: 5px;
+      overflow: hidden;
+    }
+
+    .skill-fill {
+      height: 100%;
+      background-color: green;
+      border-radius: 5px;
+    }
+
+    img.profile-img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+	<img src="C:\Users\dell\Downloads\WhatsApp Image 2025-01-28 at 5.24.28 PM.jpg" alt="image.jpg">
+  <div class="profile-container">
+    <section id="name">
+      <h2>Name</h2>
+      <p>Jyothsna Bhukya</p>
+    </section>
+
+    <section id="email">
+      <h2>Email</h2>
+      <p>jyothsnabhukya@gmail.com</p>
+    </section>
+
+    <section id="profile">
+      <h2>Profile</h2>
+      <p>Accio Student</p>
+    </section>
+
+    <section id="about-me">
+      <h2>About me</h2>
+      <p>I am a passionate MERN Stack development fresher with a strong foundation in building dynamic and responsive web applications. My expertise spans MongoDB, Express.js, React, and Node.js, enabling me to craft efficient and scalable solutions. With hands-on experience gained through projects and problem-solving challenges, I am eager to apply my skills to real-world scenarios, collaborate with innovative teams, and continuously grow as a full-stack developer.</p>
+    </section>
+ <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills">
+        <div class="skill">
+          <span>Javascript </span>
+          <div class="skill-bar"><div class="skill-fill" style="width:85%;"></div></div>
+        </div>
+        <div class="skill">
+          <span>HTML</span>
+          <div class="skill-bar"><div class="skill-fill" style="width: 90%;"></div></div>
+        </div>
+        <div class="skill">
+          <span>C/C++</span>
+          <div class="skill-bar"><div class="skill-fill" style="width: 99%;"></div></div>
+        </div>
+        <div class="skill">
+          <span>CSS</span>
+          <div class="skill-bar"><div class="skill-fill" style="width: 93%;"></div></div>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
